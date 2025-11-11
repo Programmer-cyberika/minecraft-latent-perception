@@ -1,0 +1,68 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+*.log
+
+# Virtual environments
+venv/
+.env/
+ENV/
+*.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Cache & temporary files
+.cache/
+*.tmp
+*.temp
+.DS_Store
+
+
+
+# Large datasets (store elsewhere or in LFS)
+data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+
+# TensorBoard logs
+logs/
+runs/
+
+# Hugging Face cache
+~/.cache/huggingface/
+
+# PyTorch Lightning
+lightning_logs/
+
+# ----------------------------
+# IDE / Editors
+# ----------------------------
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+# ----------------------------
+# Environment / Secrets
+# ----------------------------
+.env
+*.env
+.env.*
+.secret
+*.key
